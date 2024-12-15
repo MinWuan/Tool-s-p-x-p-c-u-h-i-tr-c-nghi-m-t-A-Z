@@ -6,7 +6,7 @@ Kiểm tra version đã cài đặt:
 node -v
 ```
 
-### - Nếu câu hỏi có định dạng: `xxx: (nội dung)`
+### - Nếu câu hỏi có định dạng: `xxx. (nội dung)`
 ```
 1. Phát biểu nào dưới đây KHÔNG ĐÚNG về Hệ điều hành?
 A. Hệ điều hành quản lý các phần cứng máy tính.

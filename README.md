@@ -34,6 +34,42 @@ node run-opt-2.js
 ```
 Kết quả hiển thị ở file `output.txt`
 
+### - Gắn đáp án vào câu trắc nghiệm: 
+Yêu định dạng nội dung ở file `input.txt` câu hỏi có dạng `xxx - (nội dung)` và `Đề xxx`
+> Ghi đúng chính tả `Đề/đề/ĐỀ,...` không ghi `dề,dè,...`
+
+```
+Đề 1
+1 - Thiết bị nào hoạt động ở tầng Vật lý (Physical)?
+A. Switch
+B. Card mạng
+C. Hub và repeater
+D. Router
+...
+```
+
+Yêu định dạng câu hỏi ở file `answer.txt` (chữ đáp án có thể viết hoa / viết thường)
+> Ghi đúng chính tả `Đề/đề/ĐỀ,...` không ghi `dề,dè,...`
+```
+Đề 1
+C
+B
+D
+...
+Đề 2
+A
+D
+E
+...
+
+```
+
+Sau khi nhập xong ở file `input.txt` và `answer.txt` chạy lệnh sau:
+```javascript
+node run-opt-3.js
+```
+Kết quả hiển thị ở file `output.txt`
+
 ## Lưu ý
 > `xxx` là số chạy từ 1-999 ngoài phạm vi sẽ không nhận diện được câu hỏi và không nằm trong file `output.txt`
 

@@ -1,6 +1,6 @@
 # Tool sắp xếp câu hỏi trắc nghiệm từ A-Z
 
-Yêu cầu đã cài đặt **Node js**, có thể cài đặt [Tại đây](https://nodejs.org/en/downloadpackage-manager)
+Yêu cầu đã cài đặt **Node js**, có thể cài đặt [Tại đây](https://nodejs.org/en/download/package-manager)
 Kiểm tra version đã cài đặt:
 ```bash
 node -v

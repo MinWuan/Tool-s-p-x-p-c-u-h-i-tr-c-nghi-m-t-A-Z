@@ -49,7 +49,7 @@ D. Router
 ```
 
 Yêu định dạng câu hỏi ở file `answer.txt` (chữ đáp án có thể viết hoa / viết thường)
-> Ghi đúng chính tả `Đề/đề/ĐỀ,...` không ghi `dề,dè,...`
+> Ghi đúng chính tả `Đề/đề/ĐỀ,...` không ghi `dề,dè,...` , `thứ tự đáp án` trùng với `thứ tự đề` 
 ```
 Đề 1
 C
